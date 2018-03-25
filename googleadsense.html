@@ -5,7 +5,7 @@
 <meta name ="viewport" content ="width=device-width initial-scale = 1.0"/>
 <title>Health Wise</title>
     </head>
-    <body onload ="Ads();">
+    <body onload ="Ads(googleads);">
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- Ads -->
             <ins class="adsbygoogle"
@@ -26,7 +26,7 @@
    return;
       }
       else{
-          for(i=0;i<googleads.length; i++)
+          for(i=0;i<=googleads.length; i++)
           {
               googleads[i].url ="googleadsense.html";
           }
